@@ -12,7 +12,6 @@ const Form = ({ onSearchSubmit }) => {
     onSearchSubmit(location)
     setLocation('')
   }
-  console.log(123);
 
   return (
     <form onSubmit={onSubmit}>
